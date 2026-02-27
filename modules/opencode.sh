@@ -11,10 +11,10 @@ echo "  模块：OpenCode 开发环境"
 echo "========================================="
 echo ""
 
-# ---- 1. 安装 opencode CLI 和桌面应用 ----
+# ---- 1. 安装 opencode CLI ----
 echo "[1/4] 安装 opencode..."
-brew install opencode opcode opencode-desktop
-echo "  ✓ opencode、opcode 和 opencode-desktop 已安装"
+brew install opencode
+echo "  ✓ opencode CLI 已安装"
 
 # ---- 2. 配置目录 + 基础配置 ----
 echo "[2/4] 配置 opencode..."
