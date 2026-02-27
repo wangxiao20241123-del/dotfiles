@@ -13,8 +13,8 @@ echo ""
 
 # ---- 1. 安装 opencode CLI 和桌面应用 ----
 echo "[1/4] 安装 opencode..."
-brew install opcode opencode-desktop
-echo "  ✓ opcode 和 opencode-desktop 已安装"
+brew install opencode opcode opencode-desktop
+echo "  ✓ opencode、opcode 和 opencode-desktop 已安装"
 
 # ---- 2. 配置目录 + 基础配置 ----
 echo "[2/4] 配置 opencode..."
