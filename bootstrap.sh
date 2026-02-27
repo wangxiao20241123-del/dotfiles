@@ -9,10 +9,11 @@ echo "========================================="
 echo ""
 echo "可用模块："
 echo "  1) github    - Git + GitHub CLI + SSH 密钥"
-echo "  2) opencode  - OpenCode CLI + 桌面应用 + 配置"
+echo "  2) opencode  - OpenCode CLI + 配置"
+echo "  3) input     - 微信输入法（WeType）"
 echo "  a) all       - 全部安装"
 echo ""
-read -p "选择要安装的模块 (1/2/a): " choice
+read -p "选择要安装的模块 (1/2/3/a): " choice
 
 run_module() {
   local module="$1"
@@ -27,7 +28,8 @@ run_module() {
 case "$choice" in
   1) run_module "github" ;;
   2) run_module "opencode" ;;
-  a|A) run_module "github" && run_module "opencode" ;;
+  3) run_module "input" ;;
+  a|A) run_module "github" && run_module "opencode" && run_module "input" ;;
   *) echo "无效选择"; exit 1 ;;
 esac
 

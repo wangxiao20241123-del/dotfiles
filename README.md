@@ -13,7 +13,8 @@ cd ~/dotfiles
 | 模块 | 内容 |
 |------|------|
 | github | Homebrew + Git + GitHub CLI + SSH 密钥 + .gitconfig |
-| opencode | OpenCode CLI + 桌面应用 + 配置 + skills + plugins |
+| opencode | OpenCode CLI + 配置 + skills + plugins |
+| input | 微信输入法（WeType） |
 
 ## 注意
 
