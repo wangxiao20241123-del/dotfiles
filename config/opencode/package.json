@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@opencode-ai/plugin": "1.2.15"
+  },
+  "trustedDependencies": [
+    "@ast-grep/cli",
+    "@code-yeongyu/comment-checker",
+    "oh-my-opencode"
+  ]
+}

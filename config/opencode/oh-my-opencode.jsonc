@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "google_auth": false,
+  "agents": {
+    "sisyphus": {
+      "model": "NC AWS/claude-opus-4-6"
+    },
+    "prometheus": {
+      "model": "NC AWS/claude-opus-4-6"
+    },
+    "oracle": {
+      "model": "NC Codex/gpt-5.3-codex"
+    },
+    "librarian": {
+      "model": "NC AWS/claude-opus-4-6"
+    },
+    "explore": {
+      "model": "NC AWS/claude-opus-4-6"
+    },
+    "multimodal-looker": {
+      "model": "NC AWS/claude-opus-4-6"
+    },
+    "metis": {
+      "model": "NC AWS/claude-opus-4-6"
+    },
+    "momus": {
+      "model": "NC Codex/gpt-5.3-codex"
+    },
+    "atlas": {
+      "model": "NC AWS/claude-opus-4-6"
+    }
+  },
+  "categories": {
+    "quick": {
+      "model": "NC AWS/claude-sonnet-4-5"
+    },
+    "visual-engineering": {
+      "model": "NC AWS/claude-opus-4-6"
+    },
+    "ultrabrain": {
+      "model": "NC Codex/gpt-5.3-codex"
+    },
+    "artistry": {
+      "model": "NC AWS/claude-opus-4-6"
+    },
+    "writing": {
+      "model": "NC AWS/claude-opus-4-6"
+    },
+    "unspecified-low": {
+      "model": "NC AWS/claude-sonnet-4-5"
+    },
+    "unspecified-high": {
+      "model": "NC AWS/claude-opus-4-6"
+    }
+  }
+}
